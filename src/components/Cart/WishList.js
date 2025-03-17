@@ -9,7 +9,7 @@ const WishList = () => {
     return (
         <div>
     {
-        cart.length > 0  ? 
+        cart.length > 1  ? 
         (<div className="wishlist-container">
         <h1 className="heading">Wish List</h1>
 
