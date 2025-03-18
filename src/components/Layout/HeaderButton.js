@@ -10,15 +10,16 @@ const HeaderButton = props => {
     const [btnIsHighlighted, setBtnIsHighlighted] = useState(false);
     const cartCtx = useContext(CartContext);
     const navigate = useNavigate();
-
+  
+    // Destructure cart items for easy access
     const { items } = cartCtx;
-
+    // Calculate total cart items
     const numberOfCartItems = items.reduce((curNumber, item) => {
         return curNumber + item.amount;
     }, 0);
-    
+    // Button classes for animation
     const btnClasses = `${classes.button} ${btnIsHighlighted ? classes.bump : ''}`;
-
+    // Add animation effect when cart is updated
     useEffect(() => {
         if(items.length === 0) {
             return;
@@ -33,7 +34,7 @@ const HeaderButton = props => {
             clearTimeout(timer);
         };
     }, [items]);
-
+     // Handle logout
     const handleLogout = (e) => {
         e.preventDefault();
         // login logic here

@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
-import { useDispatch, useSelector } from "react-redux";
-import {add ,remove} from "../../redux/Slices/WishListSlice";
+import React, { useContext } from 'react'; // Import necessary React hooks
+import { useDispatch, useSelector } from "react-redux"; // Import CSS module for styling
+import {add ,remove} from "../../redux/Slices/WishListSlice";  // Import custom Input component
 
 import { FaHeart } from "react-icons/fa"
 

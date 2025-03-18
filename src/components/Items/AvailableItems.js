@@ -1,8 +1,8 @@
 import TOP_DEALS from './Content';
-import Cards from './Cards'
+import Cards from './Cards' // Import Cards component to display individual product cards
 
 const AvailableItems = ({category}) => {
-    let filteredProducts = TOP_DEALS;
+    let filteredProducts = TOP_DEALS;   // Initialize filteredProducts with all available products
     // Filter products based on the selected category
     if(category !== "All"){
         filteredProducts = TOP_DEALS.filter((product) => product.category === category);

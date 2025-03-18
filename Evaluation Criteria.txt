@@ -1,0 +1,72 @@
+Evaluation Criteria:
+1. Implementation of ReactJS functionality (25%)
+Proper use of React components, hooks, and routing.  
+2. Integration of Redux for state management (20%)
+Efficient state management, modular reducers, and appropriate middleware.
+Ans1&Ans2
+############################## Functionality 
+1. Display all the shopping products with different categories.
+2. Select the products
+3. Display no of selected products
+4. Filter product - brand, size, colour
+5. Move selected products to the cart after click on ‘Add to Cart’ button
+6. Once user clicks on checkout, sign up/in page should get displayed if user is not already signed in.
+7. After click on checkout button, another page should get displayed with message “Your order is placed.”
+
+Add New Address:
+1. User should have functionality to add no of address with radio button.
+2. If user doesn’t have any address selected, then “add new address” dialog should get displayed to add the address while moving the products in the cart.
+3. Validation should be applied on all the fields
+4. If validation gets fail, error message should get displayed.
+
+Add to Cart:
+1. It should have user details includes name, address, phone-number etc
+2. No of products displayed
+3. Price calculation should be displayed.
+4. Cancel button should be there to cancel the transaction.
+5. Delete and Edit button should be displayed to delete/edit the product.
+
+Checkout Page:
+1. It should have user details includes name, address, phone-number etc
+2. No of products displayed
+3. Price calculation should be displayed.
+4. Cancel button should be there to cancel the transaction.
+5. Delete and Edit button should be displayed to delete/edit the product.
+
+Add to Wishlist:
+1. Wishlist icon should get displayed in the header.
+2. Each product will have icon to move it to the Wishlist.
+3. Once user clicks on the Wishlist icon in the header, all products should
+get displayed
+4. Once user hover on the product, add to cart option should get displayed to move the respective product in the cart.
+
+
+
+
+#######################
+3. Integration of data visualization (20%)
+Quality and effectiveness of charts and graphs.
+
+#######################################
+4. UI/UX design (20%)
+Responsiveness, accessibility, and interactivity.
+#########################
+5. Documentation and code organization (10%)
+Clarity of comments, folder structure, and application flow.
+
+#################
+6. Creativity and innovation (5%)
+Unique features or enhancements.
+
+Creativity and Innovation
+
+To enhance user experience and provide a competitive edge, the application incorporates unique features:
+
+Wishlist with Quick Add-to-Cart: Users can hover over wishlist items and add them to the cart instantly.
+
+Smart Filtering System: Dynamic filtering by category, brand, size, and price ensures seamless product discovery.
+
+Real-Time Price Calculation: Cart updates in real-time, displaying total price and discounts.
+
+Mobile-Optimized UI: Fully responsive design for a seamless shopping experience on all devices.
+

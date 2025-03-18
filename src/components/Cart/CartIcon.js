@@ -1,3 +1,6 @@
+
+// CartIcon Component - Displays a shopping cart SVG icon
+
 const CartIcon = () => {
     return (
         <svg
