@@ -1,6 +1,6 @@
 E-Commerce Web Application  Documentation & Report
 
-1. #######################################  Application Structure #################################
+1. #######################################  Application Structure 
 
 The project follows a well-structured architecture to ensure scalability and maintainability. Below is an overview of the main directories and their purposes:
 

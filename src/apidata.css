@@ -1,0 +1,25 @@
+.apidata{
+   padding:7em;
+   border:12px solid #00000094;
+   background-color: rgb(242, 243, 247);
+   color: rgba(161, 134, 134, 0.932);
+   /* font-size: 20px */
+   
+}
+.imagee{
+   height:170px;
+   width:140px
+}
+.heading{
+   color: red;
+/* align-items: center;
+display: flex; */
+}
+.heading-1{
+  color: black;
+   /* display: flex;
+   align-items: center;
+   flex-direction: column;
+   border:1px solid black; */
+   
+}

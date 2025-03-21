@@ -1,3 +1,6 @@
+
+// Set Up Redux Store 
+
 import { configureStore } from "@reduxjs/toolkit";
 import { WishListSlice } from "./Slices/WishListSlice";
 
