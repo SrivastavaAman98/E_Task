@@ -1,6 +1,8 @@
-// useState ,useEffect  import Hooks library are used 
+// implementation useState ,useEffect  import Hooks library are used 
 
 import React, { useState,useEffect } from 'react';
+
+// Routing 
 import { Route, Routes } from "react-router-dom";
 
 import Header from './components/Layout/Header';
@@ -31,7 +33,7 @@ useEffect(() => {
   return (
     <CartProvider>
       <Header isLoggedIn = { isLoggedIn } setIsLoggedIn = {setIsLoggedIn} />
-      <Routes>
+      <Routes> {'Adding React Router to our app'}
           <Route path="/" element={<Home/>} />
           <Route path="/login" element={<LoginForm isLoggedIn = { isLoggedIn }setIsLoggedIn = { setIsLoggedIn }/>} />
           <Route path="/wishlist" element={<WishList/>} />
@@ -50,7 +52,9 @@ useEffect(() => {
         const {id,image, title, description,price,category,Rating}= post
         return(
           <div className='heading-1'>
-          <h3>{id}</h3>
+          <uo>
+         <li>
+           <h3>{id}</h3>
           <h2>{title}</h2>
           <h5>{price }</h5>
           {/* <h1>{category}</h1> */}
@@ -58,7 +62,8 @@ useEffect(() => {
 
           <img src={image} className='imagee'/>
           <h3>{description}</h3>
-
+         </li>
+</uo>
           </div>
         )
       })}
